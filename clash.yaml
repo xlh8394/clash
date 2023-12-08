@@ -91,7 +91,9 @@ i:
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: http://localhost:25500/sub?target=clash&new_name=true&url=https%3A%2F%2Ffuqing.ch%2Fsubscribe%2Fvzgmve-dvkh2elo%7Chttps%3A%2F%2Fv1.dogapi.yachts%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dc929365b7c7c250d1eb50831f93196da%7C&insert=false&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Fcustomized%2Fnexitally.ini
+    url: 
+    # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
+    # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
 proxies: null
 proxy-groups:
