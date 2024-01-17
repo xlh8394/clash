@@ -109,14 +109,6 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
-  - name: 📺 Emby
-    proxies:
-      - DIRECT
-      - 🇸🇬 狮城节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
     type: select
   - name: 🎥 奈飞视频
     proxies:
@@ -182,16 +174,12 @@ rule-providers:
     path: ./ruleset/anti-ad-clash.yaml
   OpenAi:
     <<: *a6
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml 
     path: ./ruleset/OpenAi.yaml
   BiliBili:
     <<: *a6
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
     path: ./ruleset/BiliBili.yaml
-  Emby:
-    <<: *a6
-    url: https://raw.githubusercontent.com/xlh8394/Emby/main/Emby.yaml
-    path: ./ruleset/Emby.yaml
   Netflix:
     <<: *a6
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
@@ -214,7 +202,7 @@ rule-providers:
     path: ./ruleset/Github.yaml
   Microsoft:
     <<: *a6
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml 
     path: ./ruleset/Microsoft.yaml
   Google:
     <<: *a6
@@ -245,8 +233,7 @@ rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
-  - RULE-SET,OpenAi,🤖 OpenAi
-  - RULE-SET,Emby,📺 Emby
+  - RULE-SET,OpenAi,🤖 OpenAi 
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,BiliBili,📺 哔哩哔哩
   - RULE-SET,Bahamut,📺 哔哩哔哩
@@ -259,6 +246,6 @@ rules:
   - RULE-SET,Twitter,🌏 全球加速
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,ProxyLite,🌏 全球加速
-  - RULE-SET,ChinaIP,DIRECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,ChinaIP,DIRECT 
+  - GEOIP,CN,DIRECT 
   - MATCH,🐟 兜底分流
