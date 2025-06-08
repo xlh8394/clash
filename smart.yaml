@@ -70,11 +70,9 @@ proxy-groups:
       include-all: true
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png
 
-    - name: 兜底分流
-      <<: *atm
-      type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
-      icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    - name: 所有-智选
+      <<: *zhixuan
+      icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
 
     - name: 国外网站
       <<: *atm
@@ -168,9 +166,11 @@ proxy-groups:
       filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 
-    - name: 所有-智选
-      <<: *zhixuan
-      icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+    - name: 兜底分流
+      <<: *atm
+      type: select
+      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 #规则集
 guize: &guize
