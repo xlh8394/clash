@@ -66,78 +66,78 @@ proxy-groups:
     - name: 手动选择
       <<: *atm
       type: select
-      proxies: ["所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       include-all: true
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png
 
-    - name: 所有-智选
+    - name: 所有智选
       <<: *zhixuan
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
 
     - name: 国外网站
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 
     - name: 国外媒体
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
 
     - name: YouTube
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 
     - name: Netflix
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
 
     - name: 电报消息
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram_X.png
 
     - name: 推特消息
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/x.png
 
     - name: 游戏平台
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
 
     - name: 微软服务&GitHub
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
 
     - name: AI
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
 
     - name: Emby
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
 
     - name: Spotify
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 
 #节点分区
@@ -169,7 +169,7 @@ proxy-groups:
     - name: 兜底分流
       <<: *atm
       type: select
-      proxies: ["手动选择", "所有-智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
+      proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 #规则集
