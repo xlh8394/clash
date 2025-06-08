@@ -265,7 +265,6 @@ rules:
     - DOMAIN-KEYWORD,cubetecn,国外网站
     - PROCESS-NAME,parfait_crash_handler.exe,国外网站
     - PROCESS-NAME,CapCut.exe,国外网站
-    - RULE-SET,Google,国外网站
     - RULE-SET,AI,AI
     - RULE-SET,Netflix,Netflix
     - RULE-SET,Emby,Emby
@@ -274,6 +273,7 @@ rules:
     - RULE-SET,Twitter,推特消息
     - RULE-SET,Spotify,Spotify
     - GEOSITE,microsoft,微软服务&GitHub
+    - RULE-SET,Google,国外网站
     - GEOSITE,gfw,国外网站
     - RULE-SET,Global,国外网站
     - GEOIP,lan,DIRECT
