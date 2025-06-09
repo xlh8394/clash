@@ -267,7 +267,7 @@ rules:
     - PROCESS-NAME,CapCut.exe,国外网站
     - RULE-SET,AI,AI
     - RULE-SET,Netflix,Netflix
-    - RULE-SET,Github,游戏平台
+    - RULE-SET,Github,国外网站
     - RULE-SET,Steam,游戏平台
     - RULE-SET,Emby,Emby
     - RULE-SET,YouTube,YouTube
