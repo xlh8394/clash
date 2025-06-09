@@ -116,7 +116,7 @@ proxy-groups:
       proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
       icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
 
-    - name: 微软服务&GitHub
+    - name: 微软服务
       <<: *atm
       type: select
       proxies: ["手动选择", "所有智选", "香港-智选", "台湾-智选", "新加坡-智选", "日本-智选", "美国-智选", "DIRECT"]
@@ -236,6 +236,11 @@ rule-providers:
       url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list
       path: ./rules/Global.list
 
+    Github:
+      <<: *guize
+      url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Github.list
+      path: ./rules/Github.list
+
     Microsoft:
       <<: *guize
       url: https://whatshub.top/rule/Microsoft.list
@@ -262,12 +267,14 @@ rules:
     - PROCESS-NAME,CapCut.exe,国外网站
     - RULE-SET,AI,AI
     - RULE-SET,Netflix,Netflix
+    - RULE-SET,Github,游戏平台
+    - RULE-SET,Steam,游戏平台
     - RULE-SET,Emby,Emby
     - RULE-SET,YouTube,YouTube
     - RULE-SET,Telegram,电报消息
     - RULE-SET,Twitter,推特消息
     - RULE-SET,Spotify,Spotify
-    - GEOSITE,microsoft,微软服务&GitHub
+    - GEOSITE,microsoft,微软服务
     - RULE-SET,Google,国外网站
     - GEOSITE,gfw,国外网站
     - RULE-SET,Global,国外网站
