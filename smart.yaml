@@ -257,7 +257,6 @@ rule-providers:
       path: ./rules/ProxyGFW.list
 
 rules:
-    - RULE-SET,Emby,Emby
     - PROCESS-NAME,tsukimi.exe,Emby
     - PROCESS-NAME,dnplayer.exe,国外网站
     - DOMAIN-SUFFIX,hjd2048.com,兜底分流
@@ -269,6 +268,7 @@ rules:
     - PROCESS-NAME,CapCut.exe,国外网站
     - RULE-SET,AI,AI
     - RULE-SET,Netflix,Netflix
+    - RULE-SET,Emby,Emby
     - RULE-SET,Github,国外网站
     - RULE-SET,Steam,游戏平台
     - RULE-SET,YouTube,YouTube
