@@ -180,10 +180,6 @@ guize: &guize
    behavior: classical
 
 rule-providers:
-    AD:
-      <<: *guize
-      url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Reject.list
-      path: ./rules/AD.list
 
     Google:
       <<: *guize
@@ -256,7 +252,6 @@ rule-providers:
       path: ./rules/ProxyGFW.list
 
 rules:
-    - RULE-SET,AD,REJECT
     - PROCESS-NAME,dnplayer.exe,国外网站
     - DOMAIN-SUFFIX,hjd2048.com,兜底分流
     - DOMAIN-SUFFIX,mypikpak.com,兜底分流
