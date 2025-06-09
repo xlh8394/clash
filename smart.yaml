@@ -257,6 +257,7 @@ rule-providers:
       path: ./rules/ProxyGFW.list
 
 rules:
+    - PROCESS-NAME,tsukimi.exe,Emby
     - PROCESS-NAME,dnplayer.exe,国外网站
     - DOMAIN-SUFFIX,hjd2048.com,兜底分流
     - DOMAIN-SUFFIX,mypikpak.com,兜底分流
